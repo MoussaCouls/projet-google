@@ -1,0 +1,72 @@
+#debut
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+}
+nav li
+{
+  padding-right: 10px;
+
+}
+nav a{
+  font-size: 1.2em;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+nav a:hover
+{
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+#photo
+{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+#photo img
+{
+  width: 50px;
+  height: 50px;
+}
+#logo
+{
+  margin-top: 10px;
+  height: 300px;
+  background: url('logo.png') no-repeat;
+  position: relative;
+  box-shadow: none;
+  margin-bottom: 50px;
+}
+#realbox
+{
+  width: 600px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 50px;
+}
+#realbox p{
+  font-size: 20px;
+}
+footer
+{
+  display: flex;
+  padding-top: 30px;
+  justify-content: flex-end;
+}
+#bouton
+{
+  width: 50%;
+}
+#bouton img
+{
+  height: 50%;
+}
